@@ -1,0 +1,308 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "09c2efe0ab60a263e080f9d81fb258538bf8ed3c.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/09c2efe0ab60a263e080f9d81fb258538bf8ed3c.js",
+      "size": 437951,
+      "hash": "09c2efe0ab60a263e080f9d81fb258538bf8ed3c"
+    },
+    {
+      "path": "1e3e4bd0b81e4bc1833fb6a1d689718bd301651b.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/1e3e4bd0b81e4bc1833fb6a1d689718bd301651b.css?meteor_css_resource=true",
+      "size": 7450,
+      "hash": "1e3e4bd0b81e4bc1833fb6a1d689718bd301651b"
+    },
+    {
+      "path": "app/.gitkeep",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/.gitkeep",
+      "size": 1,
+      "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc"
+    },
+    {
+      "path": "app/dragend.min.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/dragend.min.js",
+      "size": 17321,
+      "hash": "abbd33b1323b16553982f2e7c86b0a4460de446f"
+    },
+    {
+      "path": "app/hammer.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/hammer.js",
+      "size": 76427,
+      "hash": "97eebcc6674befbf1d4ba786eb88c857bc38ddb0"
+    },
+    {
+      "path": "app/Lato/Lato-Black.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-Black.ttf",
+      "size": 114588,
+      "hash": "573229cbc4622190a38adff3d906e0c1466802bd"
+    },
+    {
+      "path": "app/Lato/Lato-BlackItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-BlackItalic.ttf",
+      "size": 111616,
+      "hash": "ce2095485c0274ed904e096b80448bc48f56c3bd"
+    },
+    {
+      "path": "app/Lato/Lato-Bold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-Bold.ttf",
+      "size": 121788,
+      "hash": "c330d59f3e64e07a2571c2ba4f4109b20a168f69"
+    },
+    {
+      "path": "app/Lato/Lato-BoldItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-BoldItalic.ttf",
+      "size": 120312,
+      "hash": "2007f546660221940e9dc6b9a3cae9b72fbe17af"
+    },
+    {
+      "path": "app/Lato/Lato-Hairline.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-Hairline.ttf",
+      "size": 115316,
+      "hash": "fa540e486ce62d6883201b0a545c4facf2511253"
+    },
+    {
+      "path": "app/Lato/Lato-HairlineItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-HairlineItalic.ttf",
+      "size": 91460,
+      "hash": "4e75ebff548ef432bc417e8686d52ffb7c9cbe35"
+    },
+    {
+      "path": "app/Lato/Lato-Italic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-Italic.ttf",
+      "size": 118352,
+      "hash": "e4cea8035a258a869a6139fbf74e6d0c247bd49b"
+    },
+    {
+      "path": "app/Lato/Lato-Light.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-Light.ttf",
+      "size": 122524,
+      "hash": "6eb95108fef81bd8cfbf7e20d4ca0634e5989019"
+    },
+    {
+      "path": "app/Lato/Lato-LightItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-LightItalic.ttf",
+      "size": 91600,
+      "hash": "584f340776412f77f04de06ee04348ef823d5097"
+    },
+    {
+      "path": "app/Lato/Lato-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/Lato-Regular.ttf",
+      "size": 120196,
+      "hash": "127f241871a9fe42cd8d073a0835410f3824d57c"
+    },
+    {
+      "path": "app/Lato/OFL.txt",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Lato/OFL.txt",
+      "size": 4498,
+      "hash": "e060787c337e6330d811b17040a7409a0faf1f7c"
+    },
+    {
+      "path": "app/fontello/LICENSE.txt",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/LICENSE.txt",
+      "size": 368,
+      "hash": "980389d4a613c4f8fef2cd14994687e390035d26"
+    },
+    {
+      "path": "app/fontello/README.txt",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/README.txt",
+      "size": 2878,
+      "hash": "6f9edec6fcdc542228539c6dc02c67ebb8bd13e1"
+    },
+    {
+      "path": "app/fontello/config.json",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/config.json",
+      "size": 1829,
+      "hash": "4230e265db5111ea97b000f8c11b3bbf82b1a49c"
+    },
+    {
+      "path": "app/fontello/demo.html",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/demo.html",
+      "size": 8191,
+      "hash": "4b8bc818da4a0d5ac03210451100f8ad398050bc"
+    },
+    {
+      "path": "app/images/logo-128.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo-128.png",
+      "size": 6631,
+      "hash": "1700a6dbdfd5117c1a3909f89d22ddc1a8480aa2"
+    },
+    {
+      "path": "app/images/logo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo.png",
+      "size": 21058,
+      "hash": "0d00a11fb1c1c2a394c33fc2d461863d90ba770d"
+    },
+    {
+      "path": "app/images/logo.xcf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo.xcf",
+      "size": 33629,
+      "hash": "4be5092fbc85e9b454be59bb53178067cb20585e"
+    },
+    {
+      "path": "app/fontello/css/animation.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/css/animation.css",
+      "size": 1857,
+      "hash": "181bbc89ec978981bf0ef8c7239710ae5b3ad6a1"
+    },
+    {
+      "path": "app/fontello/css/mybaby-codes.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/css/mybaby-codes.css",
+      "size": 697,
+      "hash": "f7da0b4e98ba93a93901c57e178bb1594a1b6c63"
+    },
+    {
+      "path": "app/fontello/css/mybaby-embedded.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/css/mybaby-embedded.css",
+      "size": 17223,
+      "hash": "4a492bc00c6b6fd49a61802785683f9281b4da16"
+    },
+    {
+      "path": "app/fontello/css/mybaby-ie7-codes.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/css/mybaby-ie7-codes.css",
+      "size": 1360,
+      "hash": "befae5e67503aa138e3ace99b14c76bd659be659"
+    },
+    {
+      "path": "app/fontello/css/mybaby-ie7.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/css/mybaby-ie7.css",
+      "size": 1609,
+      "hash": "58e8827068314855ed25bf7999c0a84f199a8837"
+    },
+    {
+      "path": "app/fontello/css/mybaby.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/css/mybaby.css",
+      "size": 2350,
+      "hash": "3615116a80a48561f9346f54e2c70a8e839ac73c"
+    },
+    {
+      "path": "app/fontello/font/mybaby.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/font/mybaby.eot",
+      "size": 6996,
+      "hash": "d959efd00b09bec54d0615914f1074b8d557f07b"
+    },
+    {
+      "path": "app/fontello/font/mybaby.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/font/mybaby.svg",
+      "size": 5543,
+      "hash": "6afcd200e0e148d8d12c3c1f01026bbb107121b5"
+    },
+    {
+      "path": "app/fontello/font/mybaby.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/font/mybaby.ttf",
+      "size": 6836,
+      "hash": "5ed17989b22a18048bb0a05e0f0f7d1d9f3ca4ef"
+    },
+    {
+      "path": "app/fontello/font/mybaby.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fontello/font/mybaby.woff",
+      "size": 4368,
+      "hash": "aacc4c10b1b6261540a8cc4a1ba5a42022a1f787"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "01818b9cb13c82df467b381b34ed3969eb3300d6"
+    }
+  ]
+}

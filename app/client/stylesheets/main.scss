@@ -1,0 +1,155 @@
+*,
+:before, :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none;
+}
+
+body {
+  background-color: #1E1D23;
+  color: #fff;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0 auto;
+  // overflow: hidden;
+  padding: 0;
+  max-width: 500px;
+}
+
+input, button, textarea {
+  font-size: 1em;
+}
+
+.main-wrapper {
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  // overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transition: .3s;
+  width: 100%;
+
+  // &.tab-2 {
+  //   left: -100%;
+  // }
+  // &.tab-3 {
+  //   left: -200%;
+  // }
+  // &.tab-4 {
+  //   left: -300%;
+  // }
+}
+
+.tab-indicator {
+  background-color: #fff;
+  left: 0;
+  height: 3px;
+  position: relative;
+  top: 57px;
+  transition: .3s;
+  width: 25%;
+}
+.tab-2 .tab-indicator {
+  left: 25%;
+}
+.tab-3 .tab-indicator {
+  left: 50%;
+}
+.tab-4 .tab-indicator {
+  left: 75%;
+}
+
+header.main {
+  background-color: #25252F;
+  box-shadow: 0 0 4px #1A191F;
+  font-size: 22px;
+  height: 60px;
+  line-height: 60px;
+  max-width: 500px;
+  margin: 0 auto;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    float: left;
+    height: 58px;
+    width: 25%;
+
+    a {
+      color: #fff;
+      display: block;
+    }
+
+    &.current {
+      border-bottom: 2px solid #fff;
+    }
+  }
+}
+
+
+main {
+  // display: flex;
+  padding-top: 60px;
+  height: 100%;
+  // left: 0;
+  overflow-y: auto;
+  position: relative;
+  // transform: translateX(0%);
+  // transition-property: all;
+  transition: .2s;
+  // white-space: nowrap;
+  width: 400%;
+
+  > section {
+    // flex-direction: row;
+    float: left;
+    position: relative;
+    width: 25%;
+  }
+}
+
+.card {
+  background-color: #25252F;
+  box-shadow: 0 0 3px #1A191F;
+  margin: 10px 0;
+  transition: .3s;
+}
+
+.no-data {
+  color: #666;
+  font-size: 20px;
+  padding: 10px 10px 15px;
+  text-align: center;
+}
+
+
+
+@media (max-width: 500px) {
+  
+  .card {
+    margin: 10px;
+  }
+    
+}
+

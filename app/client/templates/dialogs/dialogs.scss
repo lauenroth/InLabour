@@ -1,0 +1,62 @@
+
+
+.dialog {
+  // display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  animation-name: fadeIn;
+  animation-duration: .3s;
+
+  &:after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .92;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .text {
+    font-size: 22px;
+    padding: 30px 5%;
+    position: relative;
+    z-index: 10;
+  }
+
+  .buttons {
+    bottom: 30px;
+    left: 5%;
+    position: absolute;
+    width: 90%;
+    z-index: 10;
+  }
+
+}
+
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes fadeIn {
+  0%   {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 
+
+/* Standard syntax */
+@keyframes fadeIn {
+  0%   {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

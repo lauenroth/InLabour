@@ -1,0 +1,37 @@
+<template name="List">
+  
+  <div class="card tasks">
+    
+    {{#if hasTasks}}
+
+    <ul>
+      {{#each tasks}}
+      <li><i class="icon-check {{isDone done}}"></i> {{description}}</li>
+      {{/each}}
+    </ul>
+
+    {{else}}
+
+    <p class="no-data">You haven't created a task, yet.</p>
+
+    {{/if}}
+
+  </div>
+
+  <i class="icon-add"></i>
+
+  <form id="new-task-form" class="modal">
+
+    <header>
+      <i class="icon-close"></i>
+      <h2>Add new task</h2>
+    </header>
+
+    <label for="new-task">Description</label>
+    <input type="text" id="new-task">
+
+    <button type="submit">Add task</button>
+
+  </form>
+
+</template>

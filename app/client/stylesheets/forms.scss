@@ -1,0 +1,88 @@
+
+form {
+
+  &.modal {
+    background-color: #1E1D23;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    transition: .3s;
+    width: 100%;
+    z-index: 100;
+
+    &.show {
+      top: 0;
+    }
+
+    .back {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+}
+
+form h2 {
+  margin: 0;
+  padding: 15px;
+}
+
+label {
+  background-color: #25252F;
+  color: #fff;
+  display: block;
+  padding: 10px 15px 0;
+}
+
+form input {
+  background-color: #25252F;
+  border: none;
+  border-bottom: 1px solid #0f1b2d;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+form button {
+  background-color: #4878C0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 0 15px;
+  padding: 15px;
+  width: 100%;
+}
+
+button.danger {
+  background-color: #923;
+}
+
+.icon-add {
+  background-color: #4878C0;
+  border-radius: 100%;
+  bottom: 15px;
+  box-shadow: 0 0 10px #0f1b2d;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 50px;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  width: 50px;
+}
+
+.icon-close {
+  cursor: pointer;
+  float: right;
+  font-size: 22px;
+  line-height: 60px;
+  text-align: center;
+  width: 60px;
+}

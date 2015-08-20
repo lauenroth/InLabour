@@ -1,0 +1,18 @@
+#notifications {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 2000;
+}
+
+.notification {
+  background-color: #333;
+  border-radius: 4px;
+  box-shadow: 0 0 6px #222;
+  color: #eee;
+  display: inline-block;
+  margin: 0 auto 10px;
+  padding: 5px 10px;
+}

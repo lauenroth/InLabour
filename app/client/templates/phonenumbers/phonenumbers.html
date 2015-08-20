@@ -1,0 +1,61 @@
+<template name="PhoneNumbers">
+
+  {{#if hasPhoneNumbers}}
+  
+  <ul class="card phone-numbers">
+    {{#each phoneNumbers}}
+    <li>
+      <h4>{{name}}</h4>
+      <a href="tel:{{number}}"><i class="icon-phone"></i></a>
+      <div class="number">{{number}}</div>
+    </li>
+    {{/each}}
+    <!-- <li>
+      <h4>Hospital (Kreissaal)</h4>
+      <a href="tel:+26414646"><i class="icon-phone"></i></a>
+      <div class="number">+26414646</div>
+    </li>
+    <li>
+      <h4>Winni Liberg</h4>
+      <a href="tel:+0475870874"><i class="icon-phone"></i></a>
+      <div class="number">+0475870874</div>
+    </li>
+    <li>
+      <h4>Taxi Verts</h4>
+      <a href="tel:+023494949"><i class="icon-phone"></i></a>
+      <div class="number">+023494949</div>
+    </li>
+    <li>
+      <h4>Taxis Bleus</h4>
+      <a href="tel:+022680000"><i class="icon-phone"></i></a>
+      <div class="number">+022680000</div>
+    </li> -->
+  </ul>
+
+  {{else}}
+
+  <div class="card">
+    <div class="no-data">You haven't added any phone numbers, yet.</div>
+  </div>
+
+  {{/if}}
+
+  <i class="icon-add"></i>
+
+  <form id="new-phone-number-form" class="modal">
+
+    <header>
+      <i class="icon-close"></i>
+      <h2>Add new phone number</h2>
+    </header>
+
+    <label for="new-phone-number-name">Contact name</label>
+    <input type="text" id="new-phone-number-name" placeholder="e.g. Hospital, Midwife, Taxi">
+
+    <label for="new-phone-number">Phone number</label>
+    <input type="tel" id="new-phone-number">
+
+    <button type="submit">Add contact</button>
+  </form>
+
+</template>

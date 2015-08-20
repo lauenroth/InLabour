@@ -1,0 +1,27 @@
+
+.tasks ul {
+  margin: 0;
+  padding: 0;
+
+  li {
+    border-bottom: 1px solid #0f1b2d;
+    cursor: pointer;
+    font-size: 18px;
+    list-style: none;
+    padding: 20px 15px;
+  }
+
+  i {
+    border: 2px solid #4878C0;
+    border-radius: 100%;
+    color: #25252F;
+    margin-right: 15px;
+    padding: 6px;
+    transition: .3s;
+
+    &.done {
+      background-color: #4878C0;
+      color: #fff;
+    }
+  }
+}

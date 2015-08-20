@@ -1,0 +1,13 @@
+<template name="Dialogs">
+  
+  {{#if confirmDialog}}
+    <form class="dialog confirm">
+      <p class="text">{{confirmDialog.text}}</p>
+      <div class="buttons">
+        <button class="ok danger">Ok</button>
+        <button class="cancel">Cancel</button>
+      </div>
+    </form>
+  {{/if}}
+
+</template>

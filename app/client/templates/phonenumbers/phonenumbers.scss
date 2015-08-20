@@ -1,0 +1,48 @@
+
+.phone-numbers {
+  padding: 0;
+
+  li {
+    border-bottom: 1px solid #0f1b2d;
+    list-style: none;
+    padding: 10px;
+    position: relative;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .number {
+    color: #999;
+  }
+  
+  a {
+    background-color: #4878C0;
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    height: 65px;
+    line-height: 65px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 65px;
+  }
+
+  .add {
+    padding: 0;
+  }
+
+  input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 22px 10px;
+    width: 100%;
+  }
+
+}
