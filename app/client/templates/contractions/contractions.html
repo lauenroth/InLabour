@@ -31,8 +31,6 @@
       {{/each}}
       </ul>
 
-      <!-- ⌀ 0:25 -->
-
       {{#if pastContractions}}
       <table>
         <thead>
@@ -44,21 +42,7 @@
         </thead>
         <tbody>
           {{#each pastContractions}}
-          <tr>
-            <td>
-              <i class="icon-time"></i> 
-              <div class="time">{{started.time}}</div>
-              <div class="date">{{started.date}}</div>
-            </td>
-            <td><i class="icon-duration"></i> {{duration}}</td>
-            <td>
-              {{#if frequency}}
-                <i class="icon-frequency"></i> {{frequency}}
-              {{else}}
-              -
-              {{/if}}
-            </td>
-          </tr>
+            {{> Contraction this}}
           {{/each}}
         </tbody>
       </table>
