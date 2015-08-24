@@ -32,6 +32,10 @@ Template.Dialogs.helpers({
     return Dialogs.findOne({type: 'confirm'});
   },
 
+  changePasswordDialog: function() {
+    return Dialogs.findOne({type: 'changePassword'});
+  },
+
 });
 
 /*****************************************************************************/

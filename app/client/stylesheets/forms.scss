@@ -20,6 +20,15 @@ form {
       margin-right: 10px;
     }
   }
+
+  i {
+    color: #999;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    position: absolute;
+  }
+
 }
 
 form h2 {
@@ -45,6 +54,10 @@ form input {
 
   &:focus {
     outline: none;
+  }
+
+  &.icon {
+    padding: 20px 20px 20px 45px;
   }
 }
 
@@ -83,6 +96,8 @@ button.danger {
   float: right;
   font-size: 22px;
   line-height: 60px;
+  margin-top: 0;
+  position: static;
   text-align: center;
   width: 60px;
 }

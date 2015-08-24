@@ -23,6 +23,12 @@
     width: 100%;
   }
 
+  fieldset {
+    border: none;
+    position: relative;
+    z-index: 10;
+  }
+
   .text {
     font-size: 22px;
     padding: 30px 5%;

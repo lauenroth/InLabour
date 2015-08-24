@@ -7,7 +7,12 @@ Template.Settings.events({
 
   'click .change-password': function(e) {
     e.preventDefault();
-    notification('Not yet implemented :(');
+    Dialogs.insert({
+      type: 'changePassword',
+      ok: function() {
+        notification('Password has been changed deleted');
+      }
+    });
   },
 
   'click .logout': function(e) {
