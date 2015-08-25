@@ -39,7 +39,7 @@
           .css('overflowY', 'auto')
           .css('position', 'relative')
           .css('width', Math.floor(100 / settings.numPages) + '%')
-          .css('height', '580px') // todo
+          .css('height', '500px') // todo
         ;
       }
     });

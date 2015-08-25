@@ -177,6 +177,8 @@ Template.Contractions.created = function () {
 
 Template.Contractions.rendered = function () {
 
+  $('#main').tabbedContent();
+  
 };
 
 Template.Contractions.destroyed = function () {
