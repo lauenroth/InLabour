@@ -20,12 +20,14 @@
     var mouseDown = false;
     var isDragging = false;
     var startX = 0;
+    var startY = 0;
     var wrapperPos = 0;
     var wrapper = this;
     var currentTab = 1;
 
 
-    var distance = 0;
+    var distanceX = 0;
+    var distanceY = 0;
 
     this.find( '.' + settings.pageClass ).each(function() {
       var page = $( this );
@@ -47,20 +49,22 @@
         isDragging = false;
         mouseDown = true;
         startX = e.originalEvent.touches[0].pageX;
+        startY = e.originalEvent.touches[0].pageY;
       })
 
       .on('touchmove', function(e) {
 
         if (mouseDown) {
           isDragging = true;
-          distance = startX - e.originalEvent.touches[0].pageX;
+          distanceX = startX - e.originalEvent.touches[0].pageX;
+          distanceY = startY - e.originalEvent.touches[0].pageY;
 
-          if( Math.abs(distance) > settings.minDistance) {
-            var transform = wrapperPos + distance * -1;
+          if( Math.abs(distanceX) > Math.abs(distanceY) && Math.abs(distanceX) > settings.minDistance) {
+            var transform = wrapperPos + distanceX * -1;
 
             if ( (currentTab === 1 && transform > 0) || (currentTab === settings.numPages && transform < 0) ) {
 
-              transform = Math.floor(wrapperPos + (distance / 6) * -1 );
+              transform = Math.floor(wrapperPos + (distanceX / 6) * -1 );
             }
             wrapper.css('transform', 'translateX(' + transform + 'px)');
           }
@@ -72,14 +76,13 @@
         
         mouseDown = false;
         if (isDragging) {  
-          var transform = '0';
 
-          if( Math.abs(distance) > settings.minDistance) {
+          if( Math.abs(distanceX) > Math.abs(distanceY) && Math.abs(distanceX) > settings.minDistance) {
           
-            if (distance > 0 && currentTab < settings.numPages) {
+            if (distanceX > 0 && currentTab < settings.numPages) {
               currentTab++;
             }
-            else if (distance < 0 && currentTab > 1) {
+            else if (distanceX < 0 && currentTab > 1) {
               currentTab--;
             }
 
@@ -113,7 +116,7 @@
       var widthTmp = Math.floor(100 / settings.numPages);
       var browserWidth = $(document).width();
 
-      transform = '-' + widthTmp * (currentTab - 1);
+      var transform = '-' + widthTmp * (currentTab - 1);
       wrapper.css('transform', 'translateX(' + transform + '%)');
 
       wrapperPos = browserWidth * (currentTab - 1) * -1;
