@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'mybaby';
-  src: url('../font/mybaby.eot?83526777');
-  src: url('../font/mybaby.eot?83526777#iefix') format('embedded-opentype'),
-       url('../font/mybaby.woff?83526777') format('woff'),
-       url('../font/mybaby.ttf?83526777') format('truetype'),
-       url('../font/mybaby.svg?83526777#mybaby') format('svg');
+  font-family: 'inlabour';
+  src: url('../font/inlabour.eot?74193948');
+  src: url('../font/inlabour.eot?74193948#iefix') format('embedded-opentype'),
+       url('../font/inlabour.woff?74193948') format('woff'),
+       url('../font/inlabour.ttf?74193948') format('truetype'),
+       url('../font/inlabour.svg?74193948#inlabour') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +13,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'mybaby';
-    src: url('../font/mybaby.svg?83526777#mybaby') format('svg');
+    font-family: 'inlabour';
+    src: url('../font/inlabour.svg?74193948#inlabour') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "mybaby";
+  font-family: "inlabour";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -67,3 +67,4 @@
 .icon-email:before { content: '\e80a'; } /* '' */
 .icon-list:before { content: '\e80b'; } /* '' */
 .icon-close:before { content: '\e80c'; } /* '' */
+.icon-delete:before { content: '\e80e'; } /* '' */

@@ -1,11 +1,17 @@
 {
-  "name": "mybaby",
+  "name": "inlabour",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
   "hinting": true,
   "units_per_em": 1000,
   "ascent": 850,
   "glyphs": [
+    {
+      "uid": "qab5uvjyoc3uu4d2pvt8soshtgkuvpak",
+      "css": "delete",
+      "code": 59406,
+      "src": "typicons"
+    },
     {
       "uid": "a17986e457f3d85f26c9c240dfd6a4ba",
       "css": "email",
