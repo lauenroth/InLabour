@@ -6,7 +6,7 @@
 
     <ul>
       {{#each tasks}}
-      <li><i class="icon-check {{isDone done}}"></i> {{description}}</li>
+        {{> Todo this}}
       {{/each}}
     </ul>
 

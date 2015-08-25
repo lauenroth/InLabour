@@ -144,6 +144,33 @@ main {
 }
 
 
+.icon-delete {
+  color: transparent;
+  cursor: pointer;
+  display: none;
+  font-size: 28px;
+  height: 65px;
+  line-height: 65px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: .3s;
+  width: 65px;
+}
+
+.edit .icon-delete {
+  background-color: #923;
+  color: #fff;
+  display: block;
+  opacity: 1;
+}
+
+.edit {
+  text-decoration: line-through;
+}
+
 
 @media (max-width: 500px) {
   

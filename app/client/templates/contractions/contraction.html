@@ -6,13 +6,14 @@
       <div class="time">{{started.time}}</div>
       <div class="date">{{started.date}}</div>
     </td>
-    <td><i class="icon-duration"></i> {{duration}}</td>
-    <td>
+    <td class="duration"><i class="icon-duration"></i> {{duration}}</td>
+    <td class="frequency">
       {{#if frequency}}
         <i class="icon-frequency"></i> {{frequency}}
       {{else}}
       -
       {{/if}}
+      <i class="icon-delete"></i>
     </td>
   </tr>
           

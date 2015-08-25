@@ -34,13 +34,6 @@ Template.List.events({
     $('#new-task-form').removeClass('show');
   },
 
-  'click li': function(e) {
-    // $(e.currentTarget).toggleClass('done');
-    var done = !this.done;
-    Tasks.update({_id: this._id}, {$set: {done: done} });
-
-  }
-
 });
 
 /*****************************************************************************/
@@ -56,9 +49,7 @@ Template.List.helpers({
     return Tasks.find().fetch().length > 0;
   },
 
-  isDone: function(done) {
-    return (done ? 'done' : '');
-  }
+  
 
 });
 
