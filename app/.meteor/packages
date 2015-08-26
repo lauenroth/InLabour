@@ -6,7 +6,7 @@
 
 meteor-platform
 #autopublish
-#appcache
+appcache
 #insecure
 #iron:router
 accounts-base
