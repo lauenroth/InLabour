@@ -1,18 +1,13 @@
-#notifications {
-  position: fixed;
-  bottom: 0;
+
+.notification {
+  background-color: #4878C0;
+  bottom: -45px;
+  color: #fff;
+  font-size: 18px;
   left: 0;
+  padding: 10px;
+  position: fixed;
   right: 0;
   text-align: center;
   z-index: 2000;
-}
-
-.notification {
-  background-color: #333;
-  border-radius: 4px;
-  box-shadow: 0 0 6px #222;
-  color: #eee;
-  display: inline-block;
-  margin: 0 auto 10px;
-  padding: 5px 10px;
 }
