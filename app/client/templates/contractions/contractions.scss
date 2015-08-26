@@ -10,6 +10,10 @@ section.contractions {
     color: #999;
     float: right;
 
+    &.warning span {
+      color: #923;
+    }
+
     h4 {
       margin: 0;
     }

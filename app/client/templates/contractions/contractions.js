@@ -164,6 +164,11 @@ Template.Contractions.helpers({
 
   tickerAverages: function() {
     return Session.get('tickerAverages');
+  },
+
+  frequencyWarning: function(frequencyAverage) {
+    frequencyAverage = frequencyAverage.split(':')[0];
+    return (frequencyAverage <= 5) ? 'warning': '';
   }
 
 });
