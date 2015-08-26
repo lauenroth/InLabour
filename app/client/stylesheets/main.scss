@@ -129,6 +129,13 @@ main {
   }
 }
 
+.page {
+  float: left;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
 .card {
   background-color: #25252F;
   box-shadow: 0 0 3px #1A191F;

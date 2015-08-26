@@ -35,10 +35,6 @@
       if (settings.addCSS) {
         var contentHeight = $(document).height() - tabHeight;
         page
-          .css('float', 'left')
-          .css('overflowX', 'hidden')
-          .css('overflowY', 'hidden')
-          .css('position', 'relative')
           .css('width', Math.floor(100 / settings.numPages) + '%')
           .css('height', contentHeight + 'px')
         ;
