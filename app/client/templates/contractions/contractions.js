@@ -167,8 +167,8 @@ Template.Contractions.helpers({
   },
 
   frequencyWarning: function(frequencyAverage) {
-    frequencyAverage = frequencyAverage.split(':')[0];
-    return (frequencyAverage <= 5) ? 'warning': '';
+    frequencyAverage = frequencyAverage.split(':');
+    return (frequencyAverage.length === 2 && frequencyAverage[0] <= 5) ? 'warning': '';
   }
 
 });
