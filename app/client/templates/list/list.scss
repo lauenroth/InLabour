@@ -2,6 +2,7 @@
 .tasks ul {
   margin: 0;
   padding: 0;
+  overflow: auto;
 
   li {
     border-bottom: 1px solid #0f1b2d;

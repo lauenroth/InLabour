@@ -15,8 +15,6 @@
 
     }, options );
 
-    var _this = this;
-
     var mouseDown = false;
     var isDragging = false;
     var startX = 0;
@@ -29,18 +27,22 @@
     var distanceX = 0;
     var distanceY = 0;
 
+    var tabHeight = 60;
+
     this.find( '.' + settings.pageClass ).each(function() {
       var page = $( this );
 
       if (settings.addCSS) {
+        var contentHeight = $(document).height() - tabHeight;
         page
           .css('float', 'left')
           .css('overflowX', 'hidden')
-          .css('overflowY', 'auto')
+          .css('overflowY', 'hidden')
           .css('position', 'relative')
           .css('width', Math.floor(100 / settings.numPages) + '%')
-          .css('height', '500px') // todo
+          .css('height', contentHeight + 'px')
         ;
+        $('form.modal').css('height', contentHeight + 'px');
       }
     });
 
