@@ -154,9 +154,12 @@ Template.Contractions.helpers({
       frequenciesTotal += frequencies[i];
     }
 
+    var frequencyAverage = frequencies.length >= 1 ? secondsToTime(Math.round(frequenciesTotal / frequencies.length)) : '--:--';
+    var durationAverage = durations.length > 1 ? secondsToTime(Math.round(durationsTotal / durations.length)) : '--:--';
+
     Session.set('tickerAverages', {
-      duration: secondsToTime(Math.round(durationsTotal / durations.length)),
-      frequency: secondsToTime(Math.round(frequenciesTotal / frequencies.length))
+      duration: durationAverage,
+      frequency: frequencyAverage
     });
 
     return contractionsTmp.reverse();
