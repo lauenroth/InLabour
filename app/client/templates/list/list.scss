@@ -20,7 +20,8 @@
     border: 2px solid #4878C0;
     border-radius: 100%;
     color: #25252F;
-    margin-right: 15px;
+    float: left;
+    margin-top: -8px;
     padding: 6px;
     transition: .3s;
 
@@ -28,6 +29,10 @@
       background-color: #4878C0;
       color: #fff;
     }
+  }
+
+  p {
+    margin: 0 0 0 60px;
   }
 
 }
