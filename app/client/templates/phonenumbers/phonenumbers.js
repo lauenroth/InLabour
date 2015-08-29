@@ -59,6 +59,11 @@ Template.PhoneNumbers.created = function () {
 };
 
 Template.PhoneNumbers.rendered = function () {
+
+  var contentHeight = $(document).height() - 80;
+  $('ul.phone-numbers')
+    .css('height', contentHeight + 'px');
+
 };
 
 Template.PhoneNumbers.destroyed = function () {

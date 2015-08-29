@@ -61,10 +61,9 @@ Template.List.created = function () {
 };
 
 Template.List.rendered = function () {
-  var contentHeight = $(document).height() - 60;
+  var contentHeight = $(document).height() - 80;
   $('.tasks ul')
-    .css('height', contentHeight + 'px')
-    .css('paddingBottom', '10px');
+    .css('height', contentHeight + 'px');
 };
 
 Template.List.destroyed = function () {
