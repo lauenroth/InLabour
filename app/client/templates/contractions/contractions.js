@@ -170,8 +170,10 @@ Template.Contractions.helpers({
   },
 
   frequencyWarning: function(frequencyAverage) {
-    frequencyAverage = frequencyAverage.split(':');
-    return (frequencyAverage.length === 2 && frequencyAverage[0] <= 5) ? 'warning': '';
+    if (frequencyAverage) {
+      frequencyAverage = frequencyAverage.split(':');
+      return (frequencyAverage.length === 2 && frequencyAverage[0] <= 5) ? 'warning': '';
+    }
   }
 
 });
