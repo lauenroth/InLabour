@@ -5,9 +5,7 @@
 # but you can also edit it by hand.
 
 meteor-platform
-#autopublish
 appcache
-#insecure
 #iron:router
 accounts-base
 accounts-password
@@ -15,6 +13,3 @@ accounts-password
 momentjs:moment
 fourseven:scss
 moonco:hammer
-#meteoric:ionic
-#meteoric:ionicons-sass
-#meteoric:ionic-sass
