@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
   // overflow: hidden;
   padding: 0;
-  max-width: 500px;
+  max-width: 750px;
 }
 
 input, button, textarea {
@@ -30,7 +30,7 @@ input, button, textarea {
 
 .main-wrapper {
   height: 100%;
-  max-width: 500px;
+  max-width: 750px;
   margin: 0 auto;
   // overflow-y: scroll;
   overflow: hidden;
@@ -75,7 +75,7 @@ header.main {
   font-size: 22px;
   height: 60px;
   line-height: 60px;
-  max-width: 500px;
+  max-width: 750px;
   margin: 0 auto;
   position: fixed;
   text-align: center;
@@ -179,7 +179,7 @@ main {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   
   .card {
     margin: 10px;
